@@ -1,5 +1,6 @@
 import os
-from setuptools import setup, find_packages
+
+from setuptools import find_packages, setup
 
 here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.md')).read()
@@ -37,7 +38,7 @@ setup(
     keywords='django postgres postgresql migrations',
     python_requires='>=3.7',
     install_requires=[
-        'Django>=2.2,<4.2',
+        'Django>=2.2,<5.0',
         'PyGithub>=1.50,<2',
     ]
 )
