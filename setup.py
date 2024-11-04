@@ -38,7 +38,7 @@ setup(
     keywords='django postgres postgresql migrations',
     python_requires='>=3.7',
     install_requires=[
-        'Django>=2.2,<5.0',
+        'Django>=2.2,<6.0',
         'PyGithub>=1.50,<2',
     ]
 )
